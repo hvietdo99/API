@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>F8 - Học lập trình</title>
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    
+    <body>
+        <div>
+            <h1 id="heading">CÁC KHÓA HỌC LẬP TRÌNH</h1>
+        </div>
+        
+        <div class="content">
+            <ul class="list-courses">
+
+            </ul>
+
+            <div class="input">
+                <br/>
+                <h3>THÊM KHÓA HỌC</h3>
+                <br/>
+                <table id="table">
+                    <tr>
+                        <td><label>Name</label></td>
+                        <td><input type="text" name="name"></td>
+                    </tr>
+                    <tr>
+                        <td><label>Description</label></td>
+                        <td><input type="text" name="description"></td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">
+                            <br/>
+                            <button class="createbtn" id="create" onclick="createbtn()">Create</button>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+            
+            <div class="loginPopup">
+                <div class="formPopup" id="popupForm">
+                    <form class="formContainer">
+                        <h2>Nhập nội dung muốn sửa</h2>
+                        <br/><br/>
+                        <label for="name"><strong>Name:</strong></label>
+                        <input type="text" id="name_2" name="name_2" required>
+
+                        <label for="description"><strong>Description:</strong></label>
+                        <input type="text" id="description_2" name="description_2" required>
+
+                        <button class="btn" onclick="changeCourse()">Lưu lại</button>
+                        <button class="btn cancel" onclick="closeForm()">Thoát</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <script type="module" src="./assets/js/main.js"></script>   
+    </body>
+</html>

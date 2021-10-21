@@ -1,0 +1,34 @@
+{
+  "courses": [
+    {
+      "id": 2,
+      "name": "Node & ExpressJS",
+      "description": "Học Back-end với Node & ExpressJS framework, hiểu các khái niệm khi làm Back-end và xây dựng RESTful API cho trang web."
+    },
+    {
+      "id": 3,
+      "name": "Responsive Với Grid System",
+      "description": "Trong khóa này chúng ta sẽ học về cách xây dựng giao diện web responsive với Grid System, tương tự Bootstrap 4."
+    },
+    {
+      "name": "ReactJS",
+      "description": "Khóa học ReactJS từ cơ bản tới nâng cao, kết quả của khóa học này là bạn có thể làm hầu hết các dự án thường gặp với ReactJS. Cuối khóa học này bạn sẽ sở hữu một dự án giống Tiktok.com, bạn có thể tự tin đi xin việc khi nắm chắc các kiến thức được chia sẻ trong khóa học này.",
+      "id": 4
+    },
+    {
+      "name": "Javascript Nâng Cao",
+      "description": "Hiểu sâu hơn về cách Javascript hoạt động, tìm hiểu về IIFE, closure, reference types, this keyword, bind, call, apply, prototype, ...",
+      "id": 5
+    },
+    {
+      "name": "HTML, CSS từ Zero đến Hero",
+      "description": "Trong khóa này chúng ta sẽ cùng nhau xây dựng giao diện 2 trang web là The Band & Shopee.",
+      "id": 6
+    },
+    {
+      "name": "Kiến Thức Nhập Môn",
+      "description": "Để có cái nhìn tổng quan về ngành IT - Lập trình web các bạn nên xem các videos tại khóa này trước nhé.",
+      "id": 7
+    }
+  ]
+}
